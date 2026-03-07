@@ -1,7 +1,7 @@
 ## Hi there 👋
 ## Retention ROI Curve
 
-![Retention ROI Curve](images/Retention ROI Curve by Targeting Rate.png)
+![Retention ROI Curve](images/ROI_Curve.png)
 <!--
 **T3rryKao/T3rryKao** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
