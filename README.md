@@ -1,12 +1,5 @@
 # Telco Customer Churn Project
 
-**Ting-Yu Kao**
-
-University of California, Irvine  
-Master of Data Science
-
-March 2026
-
 # Abstract and Introduction
 ### Background
 
@@ -500,7 +493,3 @@ The scenario analysis shows that transitioning customers from month-to-month pla
 * Expand value-added service bundles:
 
 Adding services such as online security, backup, and technical support significantly reduces churn risk. Bundled service packages can enhance perceived value and increase customer stickiness.
-
-
-# Appendix
-#### link : https://github.com/T3rryKao/Telco-Customer-Churn-
