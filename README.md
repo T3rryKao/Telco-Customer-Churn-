@@ -81,7 +81,7 @@ an actionable intervention lever.
 <h3>Contract-Level Churn Comparison</h3>
 <hr>
 
-![image](https://hackmd.io/_uploads/SyraRULc-g.png)
+![image](image/image1.png)
 
 
 <p><b>Key Insight:</b><br>
@@ -101,9 +101,9 @@ Incentivizing longer-term commitments may significantly reduce churn and stabili
 <h3>Tenure Bin Analysis</h3>
 <hr>
 
-![image](image/image1.png)
+![image](image/image2.png)
 
-s
+
 <p><b>Key Insight:</b><br>
 Churn probability decreases significantly as customer tenure increases. 
 Customers within the <b>first 3 months</b> exhibit the highest churn rate, 
@@ -121,7 +121,7 @@ where intervention can yield the highest marginal impact on churn reduction.
 <h3>Payment Method Analysis</h3>
 <hr>
 
-![image](https://hackmd.io/_uploads/r1UZkDIcWx.png)
+![image](image/image3.png)
 
 
 
@@ -137,7 +137,7 @@ This may indicate <b>lower commitment</b> or <b>higher payment friction</b>.
 <h3> Revenue Tier Segmentation</h3>
 <hr>
 
-![image](https://hackmd.io/_uploads/ryAylD8cWx.png)
+![image](image/image4.png)
 
 
 
@@ -173,7 +173,7 @@ Customer Lifetime Value (CLV) is approximated as:
 This proxy captures cumulative revenue contribution and long-term customer engagement.
 </p>
 
-![image](https://hackmd.io/_uploads/BkeiyD85Zx.png)
+![image](image/image5.png)
 
 
 <p><b>Key Findings:</b></p>
@@ -208,7 +208,7 @@ This heatmap examines churn patterns across <b>contract commitment</b> and
 and switching costs.
 </p>
 
-![image](https://hackmd.io/_uploads/SJ1b4Brcbe.png)
+![image](image/image6.png)
 
 <p><b>Key Findings:</b></p>
 
@@ -237,7 +237,7 @@ and perceived value.
 </p>
 
 
-![image](https://hackmd.io/_uploads/rJl3MNHSqZg.png)
+![image](image/image7.png)
 
 <p><b>Key Findings:</b></p>
 
@@ -267,7 +267,7 @@ and <b>monthly charge levels</b>.
 </p>
 
 
-![image](https://hackmd.io/_uploads/HkmKESH9Wg.png)
+![image](image/image8.png)
 
 <p><b>Key Findings:</b></p>
 
@@ -400,7 +400,7 @@ In this project, three retention strategies are considered, each representing a 
 
 ### 1.High-Risk Customer Identification
 We first examine the **logistic regression** coefficients to understand which features most strongly influence churn probability.
-![image](https://hackmd.io/_uploads/Hkx2K42Kbl.png)
+![image](image/image9.png)
 #### Factors associated with higher churn risk:
 * Fiber optic internet service customers
 * Customers using electronic check payment methods
@@ -411,7 +411,7 @@ We first examine the **logistic regression** coefficients to understand which fe
 
 Next, we analyze where high-risk customers are concentrated by comparing the distribution of key service features across risk segments.
 
-![image](https://hackmd.io/_uploads/ByFxKH2t-e.png)
+![image](image/image10.png)
 #### High-Risk Customer Profile :
 * Customers with month-to-month contracts exhibit significantly higher churn risk **(36.18%)** compared with long-term contract.
 * Customers paying via electronic check exhibit the highest churn exposure, with **44.10%** of customers classified as high risk.
@@ -420,22 +420,24 @@ Next, we analyze where high-risk customers are concentrated by comparing the dis
 * Similarly, customers without technical support show a high-risk ratio of **38.16%**
 
 ### 2. Drivers of Churn
-![image](https://hackmd.io/_uploads/SJysqUI9Ze.png)
+![image](image/image11.png)
 The analysis reveals that churn is primarily driven by contract flexibility, payment behavior, and service engagement. Customers with fiber optic internet, electronic check payment methods, and paperless billing exhibit significantly higher churn risk, while longer tenure and value-added services reduce churn probability.
 ### 3.Customer Prioritization
-![image](https://hackmd.io/_uploads/B1DeqFTKZg.png)
+![image](image/image12.png)
 
 To support retention decision-making, customers are visualized based on predicted churn risk and customer lifetime value (CLV). 
 
 Using these two dimensions, customers are segmented into four groups based on churn risk (high vs. low) and customer avaverage value. For each segment, we estimate the **total expected revenue loss**, calculated as the sum of individual expected losses across customers within the segment.
-![image](https://hackmd.io/_uploads/HJc-JT0YWl.png)
+![image](image/image13.png)
 
 1. **High Risk – High Value (Upper Right) :** This segment contributes the largest expected revenue loss **($848K)**, indicating that retaining these customers would have the greatest financial impact.
 2. **High Risk – Low Value (Lower Right) :** Despite higher churn risk, this segment contributes only **$49K** in expected loss, suggesting that expensive incentives may not be cost-effective.
 3. **Low Risk – High Value (Upper Left) :** These customers generate substantial revenue and account for **$579K** in expected loss, meaning service quality and relationship management remain important.
 4. **Low Risk – Low Value (Lower Left) :** This segment contributes **$192K** in expected loss, indicating relatively limited financial risk.
 
-### 4.Retention Targeting Strategy Optimization![image](https://hackmd.io/_uploads/H1HsChRtWl.png)
+### 4.Retention Targeting Strategy Optimization!
+![image](image/image14.png)
+
 To simulate a realistic retention campaign, we assume the company can deploy three different retention strategies with varying cost and effectiveness:
 #### Strategy A – Low-Cost Outreach
 #### Strategy B – Targeted Retention Offer
@@ -450,7 +452,7 @@ To simulate a realistic retention campaign, we assume the company can deploy thr
 
 
 ### 5.Scenario Analysis for Retention Strategies
-![image](https://hackmd.io/_uploads/ByS-iUI5Wx.png)
+![image](image/image15.png)
 Scenario-based simulation shows that structural interventions, particularly transitioning customers to longer-term contracts, have the largest impact on churn reduction. A combined retention strategy reduces predicted churn probability by approximately 75%.
 # Discussion and Recommendation
 
