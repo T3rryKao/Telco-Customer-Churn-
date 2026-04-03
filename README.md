@@ -101,7 +101,7 @@ Incentivizing longer-term commitments may significantly reduce churn and stabili
 <h3>Tenure Bin Analysis</h3>
 <hr>
 
-/Users/terry/Documents/Telco-Customer-Churn-/image/image1.png
+![image](image/image1.png)
 
 s
 <p><b>Key Insight:</b><br>
