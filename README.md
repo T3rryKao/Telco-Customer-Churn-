@@ -101,9 +101,9 @@ Incentivizing longer-term commitments may significantly reduce churn and stabili
 <h3>Tenure Bin Analysis</h3>
 <hr>
 
-![image](https://hackmd.io/_uploads/Syq0CUU5bx.png)
+/Users/terry/Documents/Telco-Customer-Churn-/image/image1.png
 
-
+s
 <p><b>Key Insight:</b><br>
 Churn probability decreases significantly as customer tenure increases. 
 Customers within the <b>first 3 months</b> exhibit the highest churn rate, 
